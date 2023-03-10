@@ -1,4 +1,3 @@
-
 Todos:
 
 - [ ] Base C compiler for boostrap
@@ -13,7 +12,17 @@ Todos:
 	- [ ] musl?
 		- Pro: less moving parts
 		- con: compatibility?
+```
+../musl-1.2.3/configure --srcdir=../musl-1.2.3 --prefix=../out --disable-static
+
+```
+
 	- [x] gnu libc?
+- [ ] Linker ?
+	- [ ] Need to bootstrap it
+	- [ ] Careful with host linker
+	- [ ] Maybe mold? https://github.com/rui314/mold
+	- [ ] `readelf -p .comment` check linker
 - [ ] Bootstrap environment tools
 	- [ ] `binutils` for:
 		- `ar`
@@ -21,6 +30,7 @@ Todos:
 	- [ ] `posix shell` for `configure`
 	- [ ] `coreutils` ?
 	- [ ] `tar` ? - Handle in myq ?
+	- [ ] `gnu make`
 - [ ] Library RUN_PATH
 	- `readelf -d`
 	- patchelf
