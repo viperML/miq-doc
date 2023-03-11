@@ -23,6 +23,10 @@ Todos:
 	- [ ] Careful with host linker
 	- [ ] Maybe mold? https://github.com/rui314/mold
 	- [ ] `readelf -p .comment` check linker
+	- [ ] `LD_DEBUG=all`
+- [ ] Library RUN_PATH
+	- `readelf -d`
+	- patchelf
 - [ ] Bootstrap environment tools
 	- [ ] `binutils` for:
 		- `ar`
@@ -31,6 +35,7 @@ Todos:
 	- [ ] `coreutils` ?
 	- [ ] `tar` ? - Handle in myq ?
 	- [ ] `gnu make`
-- [ ] Library RUN_PATH
-	- `readelf -d`
-	- patchelf
+- [ ] Dhall for configuring pkgs
+	- [ ] https://docs.dhall-lang.org/tutorials/Language-Tour.html
+
+- [ ] Talk about FHS / LSB
