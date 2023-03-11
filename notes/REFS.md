@@ -7,3 +7,5 @@ TODO: move to mendeley
 * https://av.tib.eu/media/39614
 * https://man7.org/linux/man-pages/man1/unshare.1.html
 * https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+* https://lib.rs/crates/hakoniwa
+* https://github.com/tailhook/unshare

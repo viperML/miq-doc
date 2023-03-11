@@ -37,5 +37,13 @@ Todos:
 	- [ ] `gnu make`
 - [ ] Dhall for configuring pkgs
 	- [ ] https://docs.dhall-lang.org/tutorials/Language-Tour.html
+- [ ] Isolation
+	- [ ] Linux namespaces
+		Varios tipos: https://man7.org/linux/man-pages/man7/namespaces.7.html
+		- [ ] Mount 
+		- [ ] etc...
+		- [ ] User namespaces: https://man7.org/linux/man-pages/man7/user_namespaces.7.html
+	- [ ] Seccomp?
+	- [ ] Cgroups?
 
 - [ ] Talk about FHS / LSB
