@@ -24,6 +24,9 @@ Todos:
 	- [ ] Maybe mold? https://github.com/rui314/mold
 	- [ ] `readelf -p .comment` check linker
 	- [ ] `LD_DEBUG=all`
+	- [ ] Check LSB for linker details
+	- [ ] GNU batch loader has doc
+	- [ ] No formal definition, but have to rely in the de-facto standards
 - [ ] Library RUN_PATH
 	- `readelf -d`
 	- patchelf
@@ -37,6 +40,11 @@ Todos:
 	- [ ] `gnu make`
 - [ ] Dhall for configuring pkgs
 	- [ ] https://docs.dhall-lang.org/tutorials/Language-Tour.html
+	- [ ] Con: dhall is limiting in some regards
+- [ ] Json for configuring pkgs:
+	- [ ] Pro: as simple as it gets
+	- [ ] Pro: can use jsonschema infered from rust types
+	- [ ] Con: very verbose to type, will need an iterpreted language to type it
 - [ ] Isolation
 	- [ ] Linux namespaces
 		Varios tipos: https://man7.org/linux/man-pages/man7/namespaces.7.html
@@ -47,3 +55,6 @@ Todos:
 	- [ ] Cgroups?
 
 - [ ] Talk about FHS / LSB
+- [ ] HTTP Client
+	- [ ] reqwest:
+		- [ ] Pro: rusttls for no dep on openssl

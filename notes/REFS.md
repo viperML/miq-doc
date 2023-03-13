@@ -9,3 +9,5 @@ TODO: move to mendeley
 * https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 * https://lib.rs/crates/hakoniwa
 * https://github.com/tailhook/unshare
+* https://docs.rs/error-chain/latest/error_chain
+* 
